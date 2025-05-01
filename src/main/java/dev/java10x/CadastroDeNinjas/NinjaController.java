@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController // anotações principais do controller feito para mediar a comunicação
 @RequestMapping
-public class Controller {
+public class NinjaController {
 
     @GetMapping("/boasvindas") // pegar informações da rota de boas vindas
     public String boasVindas(){
